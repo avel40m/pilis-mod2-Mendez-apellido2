@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,300;0,400;1,200;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(200, 235, 154);
+    background: linear-gradient(0deg, rgba(200, 235, 154, 1) 0%, rgba(255, 232, 184, 1) 37%);
+    height: 100vh;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+/* Navegacion */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #2e4919;
+}
+
+.navegacion ul {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+    list-style: none;
+}
+
+.navegacion ul li {
+    padding: 1rem;
+}
+
+.navegacion ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    transition: all 0.3s;
+}
+
+.navegacion ul li a:hover {
+    color: #EAE509;
+    position: relative;
+    top: 2px;
+}
+
+.logo img {
+    width: 10rem;
+    margin: 2rem 0;
+    max-width: 70%;
+}
+
+
+/* home */
+
+.home {
+    display: flex;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    background-color: #2e4919;
+    border-top: 2px solid #EAE509;
+    border-bottom: 2px solid #EAE509;
+}
+
+.home .home_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .imagen img {
+    max-width: 90%;
+}
+
+h1 {
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+}
+
+h4 {
+    font-family: cursive;
+    font-size: 2rem;
+    color: darkblue;
+}
+
+h4 small {
+    font-size: 1rem;
+    color: white;
+}
+
+.home_description p {
+    letter-spacing: 2px;
+    color: white;
+}
+
+
+/* evento */
+
+.evento {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+    background-color: #2e4919;
+    border-top: 2px solid #EAE509;
+    border-bottom: 2px solid #EAE509;
+}
+
+.evento_description {
+    text-align: center;
+    align-self: center;
+}
+
+.evento_description h2 {
+    color: white;
+    text-decoration: underline;
+}
+
+.evento_description p {
+    letter-spacing: 2px;
+    color: white;
+}
+
+
+/* Nosotros */
+
+.nosotros {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    background-color: #2e4919;
+    border-top: 2px solid #EAE509;
+    border-bottom: 2px solid #EAE509;
+}
+
+.nosotros_description {
+    width: 800px;
+    align-self: center;
+    text-align: center;
+}
+
+.nosotros_description p {
+    letter-spacing: 2px;
+    color: white;
+}
+
+.nosotros .imagen img {
+    width: 250px;
+}
+
+
+/* Registrarse */
+
+.registrarse {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    background-color: #2e4919;
+    border-top: 2px solid #EAE509;
+    border-bottom: 2px solid #EAE509;
+}
+
+.registrarse_parrafo {
+    align-self: center;
+}
+
+.registrarse_parrafo p {
+    letter-spacing: 2px;
+    color: white;
+    font-size: 1rem;
+}
+
+.formulario {
+    text-align: center;
+}
+
+.formulario h5 {
+    padding: 1rem 0;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.form-grupo {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-grupo label {
+    color: white;
+    padding: 1rem 0;
+}
+
+input[type="text"] {
+    height: 2rem;
+    width: 300px;
+    padding: 8px;
+}
+
+input[type="submit"] {
+    padding: 10px 0px;
+    margin: 2rem 0;
+    background-color: #dbcd51;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 5px;
+    transition: all 0.5s;
+}
+
+input[type="submit"]:hover {
+    background-color: #2e4919;
+    color: white;
+    border: #dbcd51 solid;
+}
+
+
+/* clima */
+
+.clima {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    background-color: #2e4919;
+    border-top: 2px solid #EAE509;
+    border-bottom: 2px solid #EAE509;
+}
+
+.clima_description_texto {
+    background-color: #ffffc2;
+    padding: 4rem;
+}
+
+.temperatura {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* pie */
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    background-color: #2e4919;
+    color: white;
+}
+
+footer p {
+    color: white;
+    margin-left: 5px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+    transition: all .5s;
+}
+
+footer a:hover {
+    color: yellowgreen;
+}

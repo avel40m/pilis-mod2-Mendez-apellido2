@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
+    <!-- Default theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css" />
+    <!-- Semantic UI theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css" />
+    <!-- Bootstrap theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Ferias de plantas</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navegacion">
+            <ul>
+                <li>
+                    <a href="#nosotros">Nosotros</a>
+                </li>
+                <li>
+                    <a href="#evento">Eventos</a>
+                </li>
+                <li>
+                    <a href="#registrarse">Registraste</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <a href="#home">
+                <img src="images/logo.png" alt="Logo">
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="home_description">
+                <h1>Feria de las plantas</h1>
+                <br>
+                <h4>3er <small>Expo ferias de las plantas</small></h4>
+                <br>
+                <p>Este fin de semana llega la 3 era edición de la feria de plantas a San salvador de Jujuy ena la Ciudad Culturar, en la que se pueden comprar a precios accesibles las plantas multiplicadas por los propios jardineros del botánico.</p>
+            </div>
+            <div class="imagen">
+                <img src="images/floricultura.jpg" alt="Fotos de a todo Jujuy">
+            </div>
+        </section>
+
+        <section class="evento" id="evento">
+            <div class="video">
+                <embed src="https://www.youtube.com/embed/8fvGJT3G6ek"></embed>
+            </div>
+            <div class="evento_description">
+                <h2>Videos de la expo 2</h2>
+                <br>
+                <p>Le dejamos un video de la segunda expoción de feria en la plaza libertad del año 2021.</p>
+            </div>
+        </section>
+
+        <section class="nosotros" id="nosotros">
+            <div class="nosotros_description">
+                <h1>Sobre Nosotros</h1>
+                <br>
+                <p>12 años pasaron desde aquel día en el que un puñado de familias cultivadoras sembramos este sueño colectivo. La esperanza de crecer juntos y contar con un espacio donde podamos mostrar nuestro potencial nos motivó a trabajar por ello.
+                </p>
+            </div>
+            <div class="imagen">
+                <img src="images/laflormasbella.jpg" alt="">
+            </div>
+        </section>
+
+        <section class="registrarse" id="registrarse">
+            <div class="registrarse_parrafo">
+                <p>Sumate al evento para potenciar el comercio local. <br> Luego te contactaremos</p>
+            </div>
+            <div class="formulario">
+                <h5>Registrarse</h5>
+                <form action="" id="formulario">
+                    <div class="form-grupo">
+                        <label for="comercio">Nombre del comercio</label>
+                        <input type="text" id="comercio" placeholder="Ingrese el nombre de su comercio" required>
+                    </div>
+                    <div class="form-grupo">
+                        <label for="titular">Nombre del titular</label>
+                        <input type="text" id="titular" placeholder="Ingrese el nombre del titular del comercio" required>
+                    </div>
+                    <div class="form-grupo">
+                        <label for="celular">Celular</label>
+                        <input type="text" id="celular" placeholder="Ingrese el número del celular" required>
+                    </div>
+                    <div class="form-grupo">
+                        <input type="submit" value="enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="clima">
+        </section>
+    </main>
+
+    <footer>
+        <p>Para más información mmandenos un mensaje a nuestro Whatsapp: </p>
+        <a href="https://api.whatsapp.com/send?phone=3886597144" target="_blank">3886 - 597144</a>
+
+    </footer>
+</body>
+<script src="js/registro.js"></script>
+<script src="js/tiempo.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/alertify.min.js" integrity="sha512-JnjG+Wt53GspUQXQhc+c4j8SBERsgJAoHeehagKHlxQN+MtCCmFDghX9/AcbkkNRZptyZU4zC8utK59M5L45Iw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</html>
